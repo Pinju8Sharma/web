@@ -1,8 +1,11 @@
-h1{
-    color:pink;
+h1:hover{
+    color:orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    
 }
 #heading-1{
-    color: rgb(11, 134, 48);
+    color: rgb(222, 11, 109);
 }
 .para{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -27,13 +30,43 @@ img[src^="https://"]
 {
 border:10px solid chocolate;
 }
-.ordered-list-item:last-child {
+li:first-child{
+    color: blueviolet;
+}
+ul:nth-child(4){
+    color:  deeppink;
+}
+#ordered-list:first-child {
+    
+    color: yellow;
+}
+#ordered-list:nth-child(2) {
+    
+        color: red;
+
+}
+#ordered-list:last-child{
+color: chartreuse;
+}
+#unordered-list:last-child {
     
     color: green;
 
 }
-.unordered-list-item:last-child {
-    
-    color: green;
-
+/* #container-one {
+    height: 500px;
+    width: 500px;
+   background: linear-gradient(270deg,yellow,rgb(0, 183, 255),white,purple,pink);
+} */
+/* #container-one {
+    height: 500px;
+    width: 500px;
+   background: linear-gradient(to right,red,green,white,purple,pink);
+/* } 
+/* 0deg=bottom */
+/* 180deg=top */
+#container-two{
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(90deg,#a20bde,#0b75de,#0bde47,#d0de0b,#de9b0b,#de0b0b);
 }
