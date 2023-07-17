@@ -70,3 +70,25 @@ color: chartreuse;
     width: 500px;
     background: linear-gradient(90deg,#a20bde,#0b75de,#0bde47,#d0de0b,#de9b0b,#de0b0b);
 }
+#forms1{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to top left,#a20bde,#21c6cf);
+}
+.label2{
+    height: 3s00px;
+    width: 300px;
+    background: linear-gradient(to top left,#a20bde,#21c6cf);
+}
+
+
+/* units of measurement */
+/* 1.Absolute unit(px,cm,mm,inc,....),2.Relative unit(em) */
+
+.mypara{
+    font-size: 2em;
+}
+img{
+        height:50%;
+        width:75%;    
+}
