@@ -1,17 +1,25 @@
-h1:hover{
-    color:orange;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: darkgray;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+h1{
+    
+   
+    text-align: center;
+    
+    text-shadow: 4px 5px 3px rgb(235, 232, 232),6px 7px 5px rgb(33, 108, 164) ;
+
     
 }
 body{
-
+background: linear-gradient(to bottom,rgb(247, 143, 214),rgba(231, 243, 68, 0));
+font-family: Roboto,sans-serif;
 }
 #heading-1{
     color: rgb(222, 11, 109);
 }
 .para{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: line-through;
 }
 a[href^="https://"]
 {
@@ -74,6 +82,9 @@ color: chartreuse;
     height: 500px;
     width: 500px;
     background: linear-gradient(90deg,#a20bde,#0b75de,#0bde47,#d0de0b,#de9b0b,#de0b0b);
+    border: 10px double black;
+    padding: 10px;
+    margin: 15px;
 }
 #forms1{
     height: 300px;
@@ -114,11 +125,57 @@ img{
     width:500px;
     background-image: url('./pictures/download.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-color: darkmagenta;
     border: 10px double yellow;
     padding: 7px;
     margin: 18px;
+  
 
 
 }
+#pink{
+    font-size: 85%;
+    font-family: Roboto,sans-serif;
+    color: rgb(231, 120, 17);font-weight: 700;
+    text-align: center;
+}
+#container-four{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzs0jDXu_s8C3hvxGr5OqtYZO8xtfNA7NIJ1UHPixzQ5G0mY7e2hrlDpWzET3kQj9vs0c&usqp=CAU');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-color: rgb(100, 170, 198);
+    border: 10px double yellow;
+    padding: 7px;
+    margin: 18px;
+
+}
+/* css Flex-box */
+#container{
+    display:flex;
+    /* flex-direction: row(default),row-reverse,column, column-reverse; */
+
+    flex-wrap: wrap;
+    /* justify-content: flex-start(default),flex-end(to right) ,center,space-around; */
+    justify-content: center;
+}
+.container-item{
+    
+height:100px;
+width:100px;
+background-color: aquamarine;
+border: 10px double black; 
+padding: 5px;
+margin: 16px;
+font-size: 92px;
+text-align: center;
+font-weight: 600;
+text-shadow: 5px 5px 2px blueviolet;
+color: azure;
+
+
+
+}
+/* flex-wrap:nowrap ,wrap;it will fit the content according to the data */
