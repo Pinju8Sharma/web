@@ -4,6 +4,9 @@ h1:hover{
     background-color: darkgray;
     
 }
+body{
+
+}
 #heading-1{
     color: rgb(222, 11, 109);
 }
@@ -25,10 +28,12 @@ color:red;
 img[src^="./"]
 {
 border:10px solid purple;
+padding: 10px;
 }
 img[src^="https://"]
 {
 border:10px solid chocolate;
+padding: 10px;
 }
 li:first-child{
     color: blueviolet;
@@ -86,9 +91,34 @@ color: chartreuse;
 /* 1.Absolute unit(px,cm,mm,inc,....),2.Relative unit(em) */
 
 .mypara{
-    font-size: 2em;
+    font-size: 0.5em;
 }
 img{
         height:50%;
         width:75%;    
+}
+#blue{
+    border: 5px double yellow;
+    padding: 4px 6px 8px 10px;
+    margin:4px 6px 8px 10px;
+}
+#green{
+    border: 5px double yellow;
+    padding: 4px 6px 8px 10px;
+    margin:4px 6px 8px 10px;
+}
+/* parent property: any property that can be  */
+
+#container-three{
+    height:500px;
+    width:500px;
+    background-image: url('./pictures/download.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: darkmagenta;
+    border: 10px double yellow;
+    padding: 7px;
+    margin: 18px;
+
+
 }
