@@ -5,12 +5,14 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- 1.download bootstrap-3
+    2.installing BS(using npm) -->
     <h1>welcome to bootstrap!</h1>
-    <div class="containerfluid">
+    <div class="container-fluid">
         <h1> welcome to bootstrap!</h1>
     </div>
     <div class="container">
-        <h1>welcome to bootstrap!</h1>
+        <h1 id="myheader" class="page-header">welcome to bootstrap!</h1><hr />
         <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Blanditiis numquam saepe culpa laboriosam suscipit possimus ullam architecto, aut, ab rem ipsum totam soluta sint,
              quas tempore inventore nemo voluptas quibusdam?
@@ -32,7 +34,7 @@
         <h3>contextual classes</h3>
         <p class="text-primary  bg-warning">CONTEXTUAL CLASS-primary</p>
         <p class="text-danger">CONTEXTUAL CLASS-danger</p>
-        <p class="text-success">CONTEXTUAL CLASS-success</p>
+        <p style="color:blueviolet" class="text-success">CONTEXTUAL CLASS-success</p>
         <p class="text-warning">CONTEXTUAL CLASS-warning</p>
         <p class="text-muted">CONTEXTUAL CLASS-muted</p>
         <p class="text-info">CONTEXTUAL CLASS-info</p>
@@ -43,6 +45,197 @@
         <p class="bg-warning">CONTEXTUAL CLASS-warning</p>
         <p class="bg-muted">CONTEXTUAL CLASS-muted</p>
         <p class="bg-hide">CONTEXTUAL CLASS-hide</p>
+        <hr />
+        <h1>Buttons /submit& Anchors</h1>
+        <button class="btn btn-primary">Button</button>
+        <input class="btn btn-success" type="submit"value="SUBMIT">
+        <a class="btn btn-danger" href="anchor">Anchor</a> <hr />
+
+          <h5>button-sizes--</h5>  
+          <button class="btn btn-primary btn-sm">Button</button>
+          <button class="btn btn-primary btn-lg">Button</button>
+          <button class="btn btn-primary btn-xs">Button</button>
+          <hr />
+          <h2>TABLES--</h2>
+          <table class="table table-bordered table-condensed table-hover">
+            <tr>
+                <!-- <td> <b>Emp_Id</b></td> -->
+                <th> <b>Emp_Id</b></th>
+                <th>Emp_ Name</th>
+                <th>Emp_email</th>
+                <th> Emp_designation</th>
+            </tr>
+            <tr>
+                <!-- <td> <b>Emp_Id</b></td> -->
+                <td> <b>12345</b></td>
+                <td>Rajesh</td>
+                <td>ra@gmail.com</td>
+                <td> senior developer</td>
+            </tr>
+            <tr>
+                <!-- <td> <b>Emp_Id</b></td> -->
+                <td> <b>2345</b></td>
+                <td>Suresh</td>
+                <td>sa@gmail.com</td>
+                <td> Trainee</td>
+            </tr>
+            <tr>
+                <!-- <td> <b>Emp_Id</b></td> -->
+                <td> <b>23456</b></td>
+                <td>juresh</td>
+                <td>ja@gmail.com</td>
+                <td>  New Trainee</td>
+            </tr>
+            <tr>
+                <!-- <td> <b>Emp_Id</b></td> -->
+                <td> <b>2378</b></td>
+                <td>Suri</td>
+                <td>si@gmail.com</td>
+                <td> junior developer</td>
+            </tr>
+            <tr>
+                <td> <b>8899</b></td>
+                <td>Raju</td>
+                <td>re@gmail.com</td>
+                <td>Intern</td>
+            </tr>
+            </table>
+            <hr>
+            <h1>FORMS--</h1>
+            
+                <div class="container">
+                    <form  style="border:10px double black; padding: 30px; " >
+                    <div class="form-group form-control">
+                   <label>Your Name : </label>
+                   <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="form-group form-control">
+                        <label>Your password : </label>
+                        <input type="password" placeholder="enter your password">
+                    </div>
+                    <div class="form-group form-control">
+                        <label>Your Email: </label>
+                        <input type="email" placeholder="enter your email">
+                    </div>
+                    <div class="form-group form-control">
+                        <label>Enter Date</label>
+                        <input type="date" placeholder="date">
+            
+                    </div>
+                    <div class="form-group form-control form-control">
+                        <input type="file" placeholder="enter file">
+                    </div>
+                    <div class="form-group ">
+                   <input  class="btn btn-success btn-lg" type="submit">
+                    </div>
+                    <div class="form-group ">
+                        <input class="btn btn-danger btn-lg"    type="reset">
+                    </div>
+                    </form>
+                </div> 
+            
+           </form>
+           <hr>
+           <div class="container-fluid">
+            <h3>Navigation Bar:</h3>
+            <div>
+                <ol style="display: flex; justify-content: space-around;" class="list-unstyled list-inline"  type="I">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact-us</a></li>
+                </ol>
+
+            </div>
+            <div>
+                <ul class="list-unstyled"> 
+                    <li>Items-list</li>
+                    <li>Items-list</li>
+                    <li>Items-list</li>
+                    <li>Items-list</li>
+                    <li>Items-list</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <h3>Panels:-</h3>
+            </div>
+         <div class="panel panel-success">
+          
+                
+                <div class="panel-heading bg-info"> <h2 style="text-align: center;">Panel-heading:</h2></div>
+                <div class="panel-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Voluptatibus ut adipisci explicabo quas tempore. Dolor inventore in similique tempora nihil, 
+                    fuga ratione non magnam minima repudiandae blanditiis suscipit illum esse.</p></div>
+
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <h3>BS GRIDS:--</h3>
+                
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 style="text-align: center;">PANEL - HEADING</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dignissimos eveniet a similique, dolorem, quam soluta nemo blanditiis magni aut atque quae, 
+                                    illo laborum voluptate aperiam cupiditate assumenda optio dolorum. Nisi!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h4 style="text-align: center;">PANEL - HEADING</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dignissimos eveniet a similique, dolorem, quam soluta nemo blanditiis magni aut atque quae, 
+                                    illo laborum voluptate aperiam cupiditate assumenda optio dolorum. Nisi!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                <h4 style="text-align: center;">PANEL - HEADING</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Dignissimos eveniet a similique, dolorem, quam soluta nemo blanditiis magni aut atque quae, 
+                                    illo laborum voluptate aperiam cupiditate assumenda optio dolorum. Nisi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+
+
+
+
+
+
+
+          
+        <div style="height: 500px;"></div>
+    </body>
+
+
+          
+
+
+
+
+        <div style="height: 500px; width:500px;">
+            
+        </div>
     </div>
 </body>
 </html>
